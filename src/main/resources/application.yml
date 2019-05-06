@@ -1,0 +1,13 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /
+
+apollo:
+  bootstrap:
+    enabled: true
+    autoUpdateInjectedSpringProperties: false
+  meta: http://localhost:8080
+
+app:
+  id: SampleApp
