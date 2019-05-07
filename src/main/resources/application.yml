@@ -6,8 +6,11 @@ server:
 apollo:
   bootstrap:
     enabled: true
-    autoUpdateInjectedSpringProperties: false
+    autoUpdateInjectedSpringProperties: true
   meta: http://localhost:8080
+  env: dev
 
 app:
   id: SampleApp
+
+namespace: application
